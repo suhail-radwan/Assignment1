@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(63, 62, 62);
+  color: white;
+  display: flex;
+  margin: 40px;
+  padding: 30px;
+  text-align: left;
+  justify-content: space-around;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.box {
+  background-color: hsla(300, 74%, 27%, 0.5);
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+
+.left {
+  justify-content: flex-start;
+  margin: 30px;
+  padding: 20px;
+}
+
+.center {
+  justify-content: center;
+  margin: 30px;
+  padding: 10px;
+}
+
+.right {
+  justify-content: flex-end;
+  margin: 30px;
+  padding: 10px;
+}
