@@ -1,0 +1,42 @@
+body {
+  background-color: #deb887;
+  font-size: x-large;
+  font-family: "Nunito Sans", sans-serif;
+  margin: 5%;
+  display: flex;
+}
+
+div {
+  background-color: whitesmoke;
+  border: black dashed 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.para1 {
+  padding: 40px;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+hr {
+  border: black dashed 4px;
+}
+ul {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+li::first-letter {
+  font-size: 40px;
+  font-weight: bold;
+}
+footer {
+  font-size: small;
+}
+a:hover {
+  color: #cc0e74;
+}

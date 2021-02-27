@@ -1,0 +1,23 @@
+body {
+  background-color: #00d9ff;
+  font-size: x-large;
+  font-family: "Nunito Sans", sans-serif;
+  margin: 5%;
+}
+ul {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+li::first-letter {
+  font-size: 40px;
+  font-weight: bold;
+}
+footer {
+  font-size: small;
+}
+a:hover {
+  color: #cc0e74;
+}
